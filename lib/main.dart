@@ -1,10 +1,8 @@
-import 'package:VetLink/core/services/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:VetLink/features/skeleton/skeleton.dart';
-Future<void> main() async
+void main()
 {
   WidgetsFlutterBinding.ensureInitialized();
-  await InitializeDependencies();
   
   runApp(const VetLink());
 }

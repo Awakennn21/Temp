@@ -33,7 +33,7 @@ class FireBaseRemoteDataSource
   {
     try
     {
-        return UserModel.empty();
+      return UserModel.empty();
     }
     on FirebaseException catch (error)
     {
